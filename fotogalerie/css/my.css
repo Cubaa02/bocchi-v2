@@ -1,0 +1,138 @@
+main {
+    position: relative;
+}
+
+#divider {
+  position: absolute;
+  bottom: -1245px;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #000000;
+}
+
+footer {
+  margin-top: 1250px;
+}
+
+footer p {
+  font-weight: 485;
+}
+
+
+header {
+  position: relative;
+  background-image: url('../owo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 576px;
+}
+
+.header-text {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 150px;
+  text-align: center;
+  z-index: 1;
+}
+
+  .obraz-wrap {
+    display: flex;
+  }
+
+  .obraz {
+    float: left;
+    margin-right: 85px;
+    margin-left: 115px;
+    padding-top: 10px;
+    margin-top: 22px;
+  }
+
+  .obraz img {
+    max-width: 265px;
+    max-height: 265px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+  }
+  
+
+  .kontejner .container {
+    margin-left: 233px;
+  }
+
+  .container {
+    margin-left: 275px;
+  }
+  
+
+   .nahravka{
+    text-align: center;
+   }
+
+  .nahravka audio{
+    margin-top: 10px;
+    max-width: 256px;
+  }
+
+  .fanart img {
+    max-width: 335px;
+    max-height: 290px;
+  }
+
+  .momenty .container {
+    margin-left: 415px;
+  }
+
+  .xd-text {
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    z-index: 1;
+    opacity: 0.9;
+    }
+
+ 
+    @media only screen and (max-width: 768px) {
+      .xd-text {
+        margin-top: 50px;
+        font-size: 14px;
+      }
+
+      .obraz-wrap {
+        flex-direction: column;
+      }
+
+      .obraz {
+        margin: 10px auto;
+      }
+
+      .fanart img {
+        margin: 10px auto;
+      }
+      .momenty .container .obraz video{
+        max-width: 500px;
+      }
+      .momenty .container {
+        margin: 0px auto;
+      }
+      .kontejner .container {
+        margin: 10px auto;
+      }
+      .container {
+        margin: 10px auto;
+      }
+      .container .fan {
+        margin-left: 145px;
+      }
+      .container .fan1 {
+        margin-left: 70px;
+      }
+    }
